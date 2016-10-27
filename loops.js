@@ -1,3 +1,4 @@
+/*It takes an array as an argument. Start counting from 0, and, using a for loop, add a string to the array. If your i value is 1, add the string "I am 1 strange loop."; but if your i value is anything else, add the string "I am ${i} strange loops." to the array 25 times. Then return the array.*/
 function forLoop(array){
   for (var i = 0; i < 25; i++) {
     if (i == 1 ){
@@ -10,7 +11,7 @@ function forLoop(array){
   }
 return array
 }
-
+/* counts down from n to zero in console. After it counts down to zero, print 'done' in console */
 function whileLoop(n){
   while (n > 0) {
     n--;
